@@ -1,4 +1,4 @@
-# My-Skill-Set
+# My_Skill_Set
 
 Личная коллекция скилов для Claude Code.
 
