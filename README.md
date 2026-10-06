@@ -32,7 +32,7 @@ mkdir -p ~/.claude/skills && cp -r ~/My-Skill-Set/.claude/skills/* ~/.claude/ski
 | Скил | Что делает | Источник |
 |---|---|---|
 | `karpathy-guidelines` | Правила против типичных ошибок LLM в коде: без переусложнения, точечные правки | свой |
-| `prompt-engineer` | Превращает задачу в подробный мастер-промт; вызывается только через `/prompt-engineer` или `/промт` | свой |
+| `prompt-engineer` | Превращает задачу в подробный мастер-промт или в промт для генерации изображения; вызывается только через `/prompt-engineer`, `/промт` или `/prompt-engineer-imagen`, `/промт-и` (режим изображения) | свой |
 | `frontend-design` | Выразительный визуальный дизайн UI: эстетика, типографика, цвет | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/frontend-design) (Apache 2.0) |
 | `brainstorming` | Уточнение идеи и дизайна перед любой творческой работой | [obra/superpowers](https://github.com/obra/superpowers) (MIT) |
 | `writing-plans` | Пошаговый план реализации по спецификации | superpowers |
