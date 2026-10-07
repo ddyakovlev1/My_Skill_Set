@@ -1,6 +1,6 @@
 ---
 name: "memory-backup"
-description: "Back up all of Claude's memory files about the user into a private GitHub repo. Use when asked to back up memory or when a scheduled backup task runs."
+description: "Back up all of Claude's memory files about the user into a private GitHub repo (current copy on main + dated snapshots), or restore memory from it. Use when asked to back up or restore memory, or when a scheduled backup task runs."
 ---
 
 # Memory backup
