@@ -32,7 +32,8 @@ mkdir -p ~/.claude/skills && cp -r ~/My-Skill-Set/.claude/skills/* ~/.claude/ski
 | Скил | Что делает | Источник |
 |---|---|---|
 | `karpathy-guidelines` | Правила против типичных ошибок LLM в коде: без переусложнения, точечные правки | свой |
-| `prompt-engineer` | Превращает задачу в подробный мастер-промт или в промт для генерации изображения; вызывается только через `/prompt-engineer`, `/промт` или `/prompt-engineer-imagen`, `/промт-и` (режим изображения) | свой |
+| `prompt-engineer` | Превращает задачу в подробный мастер-промт для текстовой ИИ-модели; вызывается только через `/prompt-engineer` или `/промт` | свой |
+| `prompt-engineer-imagen` | Превращает описание картинки в промт для генератора изображений (по умолчанию ChatGPT); вызывается только через `/prompt-engineer-imagen` или `/промт-и` | свой |
 | `memory-backup` | Бэкап всех файлов памяти Claude в приватный GitHub-репо с автоматическим мержем в `main`; репо передаётся аргументом `owner/repo` | свой |
 | `frontend-design` | Выразительный визуальный дизайн UI: эстетика, типографика, цвет | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/frontend-design) (Apache 2.0) |
 | `brainstorming` | Уточнение идеи и дизайна перед любой творческой работой | [obra/superpowers](https://github.com/obra/superpowers) (MIT) |
