@@ -35,6 +35,7 @@ mkdir -p ~/.claude/skills && cp -r ~/My-Skill-Set/.claude/skills/* ~/.claude/ski
 | `prompt-engineer-imagen` | Превращает описание картинки в промт для генератора изображений (по умолчанию ChatGPT); вызывается только через `/prompt-engineer-imagen` или `/промт-и` | свой |
 | `memory-backup` | Бэкап памяти Claude в приватный GitHub-репо: актуальная копия в `memory/` на `main` (для восстановления) + снимки по датам `дд.мм.гг` в ветке `snapshots`; репо передаётся аргументом `owner/repo` | свой |
 | `frontend-design` | Выразительный визуальный дизайн UI: эстетика, типографика, цвет | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/frontend-design) (Apache 2.0) |
+| `anatomy` | Подробные интерактивные изометрические SVG-схемы: объясняет техническую идею через «физический прибор» с движущимися деталями; нужен Node.js 20.10+, для проверок — Chrome | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) (MIT) |
 
 ## Архив
 
